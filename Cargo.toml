@@ -1,0 +1,15 @@
+[package]
+name = "modulus-operandi"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Implementation for the paper \"Modulus Operandi: Round-Optimal Modulus Conversion for MPC and Threshold FHE\""
+license = "MIT"
+keywords = ["mpc", "fhe", "threshold", "lattice", "homomorphic"]
+categories = ["cryptography"]
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+rand = "0.10.3"
+rand_chacha = "0.10.0"
+sha2 = "0.11.0"
